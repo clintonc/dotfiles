@@ -4,3 +4,6 @@
 	s = status -sb
 [push]
 	default = simple
+[user]
+	name = Clinton Curry
+	email = clintonc@clintoncurry.net
