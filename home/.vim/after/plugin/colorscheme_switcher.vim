@@ -1,0 +1,1 @@
+let g:colorscheme_switcher_keep_background=1

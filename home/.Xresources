@@ -1,0 +1,5 @@
+XTerm*faceName: DejaVu Sans Mono
+XTerm*faceSize: 11
+XTerm*disallowedWindowOps: 20,21,SetXprop
+XTerm*saveLines: 20000
+XTerm*termName: xterm-256color
