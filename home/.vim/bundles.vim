@@ -48,6 +48,17 @@ Plugin 'sjl/gundo.vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'xolox/vim-colorscheme-switcher'
 
+" Maktaba!
+Plugin 'google/vim-maktaba'
+Plugin 'google/vim-codefmt'
+Plugin 'google/vim-glaive'
+
+Plugin 'google/vim-syncopate'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
+call glaive#Install()
+Glaive codefmt plugin[mappings]
+Glaive syncopate plugin[mappings]
+Glaive syncopate change_colorscheme=0

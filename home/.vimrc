@@ -7,6 +7,8 @@ endfunction
 call SourceIfExists(expand('~/.vim/bundles.vim'))
 call SourceIfExists(expand('~/.vim/google.vim'))
 
+let mapleader = " "
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors and style
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -15,12 +17,12 @@ set number
 
 " Theme
 set t_Co=256
-colorscheme native
 set background=dark
 if has("gui_running")
+  colorscheme base16-default
   set guifont=Inconsolata\ Medium\ 10
 else
-  "
+  colorscheme industry
 endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
